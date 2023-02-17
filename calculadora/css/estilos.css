@@ -1,0 +1,29 @@
+body{
+  background-color: silver;
+  font-family: "Verdana";
+}
+
+
+form{
+
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  border: 4px navy solid;
+  border-radius:  10px;
+}
+
+
+label{
+
+  font-size: bold;
+  color: navy;
+  width: 180px;
+  display: inline-block;
+}
+input[type=number]{
+
+  margin-bottom: 8px;
+  border: 1px navy solid;
+  padding: 4px;
+}

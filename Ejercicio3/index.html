@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAQUINA DISPENSADORA DE HELADOS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Laura Coral   Jorge Cordoba-->
+    
+</head>
+<body>
+    
+    
+    
+    <section class="container">
+        <h1 class="nombre">MAQUINA DISPENSADORA DE HELADOS</h1> 
+        <div class="products">
+            <div style="background-color: green;" class="carts">
+                <div>
+                    
+                    <img src="images/helado1.jpg" alt="">
+                   
+                </div>
+                
+                <p>HELADO ARTESANAL</p>
+                <p>Disponibles: </p>
+                <p id ="inventario1">0    </p>
+                <p>Precio: $ 1800</p>
+                
+                
+                <a href="" class="btnagregar" onclick="comprar1()">Comprar</a>            
+                <a style="background-color: gray;" href="" class="btnagregar" onclick="agregar1()">abastecer</a>
+            </div>
+            <div style="background-color:   rgb(0, 195, 255);;" class="carts">
+                <div>
+                    
+                    <img src="./images/helado2.jpg" alt="">
+                    
+                </div>
+               <p> BOCATO</p>
+               <p>Disponibles: </p>
+               <p id ="inventario2">0    </p>
+               <p>Precio: $ 3000</p>
+               
+                
+               <a href="" class="btnagregar" onclick="comprar2()">Comprar</a>
+                <a style="background-color: gray;" href="" class="btnagregar" onclick="agregar2()">abastecer</a>
+            </div>
+            <div style="background-color: palevioletred;" class="carts">
+            
+                <div>
+                   
+                    <img src="./images/helado3.jpg" alt="">
+                    
+                </div>
+              
+                <p> CHOCOCONO</p>
+                <p>Disponibles:  </p>
+                <p id ="inventario3">0    </p>
+                <p>Precio: $ 2000</p>
+                <a href="" class="btnagregar" onclick="comprar3()">Comprar</a>
+                
+                <a style="background-color: gray;" href="" class="btnagregar" onclick="agregar3()">abastecer</a>
+            
+            </div>
+       
+            <footer>
+                <div style="display: inline;" class="carts">           
+                    <a style="background-color:rgba(248, 31, 31, 0.897);" href="" class="btnagregar" onclick="totalventas()">Valor total de ventas</a>
+                    <a style="background-color:#ffff3f; color: black;" href="" class="btnagregar" onclick="unvendidas()">Unidades Vendidas</a>
+                </div>
+            </footer> 
+    </section>
+   
+    
+    <script src="js/codigo.js" ></script>
+</body>
+</html>

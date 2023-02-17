@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="css/estilos.css">
+
+
+</head>
+<body>
+  
+  <h1>Calculadora</h1>
+<hr>
+<form onsubmit="procesar2(event)">
+  <label>"Digite numero"</label>
+  <input type="number" name="txtn1" id="txtn1" required>
+  <hr>
+
+  <label>"Digite numero"</label>
+  <input type="number" name="txtn2" id="txtn2" required>
+  <hr>
+
+  <label>Seleccione Operador</label>
+<select name="lstope" id="lstope">
+<option value="+">Suma</option>
+<option value="-">Resta</option>
+<option value="*">Multiplicacion</option>
+<option value="/">Division</option>
+<option value="%">Residuo</option>
+</select>
+<hr>
+
+
+<input type="button" value="Procesar 1"  onclick="procesar1()">
+<input type="submit" value="Procesar 2">
+<input type="reset" value="Restaurar">
+</form>
+
+
+
+<script src="js/codigo1.js"></script>
+</body>
+</html>
